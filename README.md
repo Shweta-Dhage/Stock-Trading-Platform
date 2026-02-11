@@ -38,9 +38,9 @@ This project is for learning purpose only (not real stock market data).
 ## 🔹 Screenshot
 
 Click below to view the project screenshot:  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7c90a54-7f8c-4f7d-aa46-e5409e4c3e6c" />
 
-[View Screenshot](https://github.com/Shweta-Dhage/StockTradingSimulator/blob/main/Screenshot.png)
-
+ 
 ---
 
 ## 🔹 About This Project
