@@ -35,13 +35,6 @@ This project is for learning purpose only (not real stock market data).
 
 ---
 
-## 🔹 Screenshot
-
-![Screenshot 1](screenshot1.png)
-
- 
----
-
 ## 🔹 About This Project
 
 This project simulates how a stock trading platform works using virtual money.  
