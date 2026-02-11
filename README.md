@@ -37,8 +37,7 @@ This project is for learning purpose only (not real stock market data).
 
 ## 🔹 Screenshot
 
-Click below to view the project screenshot:  
-[View Screenshot](screenshot1.png)
+![Screenshot 1](screenshot1.png)
 
  
 ---
