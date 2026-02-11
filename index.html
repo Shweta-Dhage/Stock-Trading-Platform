@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock Trading Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>📈 Stock Trading Simulator</h1>
+
+  <div class="login">
+    <input id="username" placeholder="Enter your name">
+    <button onclick="saveName()">Start</button>
+  </div>
+
+  <p id="welcome"></p>
+
+  <p class="balance">Balance: ₹ <span id="balance">10000</span></p>
+
+  <div class="stock">
+    CISCO ₹1500 (<span id="qty-CISCO">0</span>)
+    <button class="buy" onclick="buy('CISCO')">Buy</button>
+    <button class="sell" onclick="sell('CISCO')">Sell</button>
+  </div>
+
+  <div class="stock">
+    GOOGLE ₹3200 (<span id="qty-GOOGLE">0</span>)
+    <button class="buy" onclick="buy('GOOGLE')">Buy</button>
+    <button class="sell" onclick="sell('GOOGLE')">Sell</button>
+  </div>
+
+  <div class="stock">
+    AMAZON ₹450 (<span id="qty-AMAZON">0</span>)
+    <button class="buy" onclick="buy('AMAZON')">Buy</button>
+    <button class="sell" onclick="sell('AMAZON')">Sell</button>
+  </div>
+
+  <div class="stock">
+    MICROSOFT ₹2800 (<span id="qty-MICROSOFT">0</span>)
+    <button class="buy" onclick="buy('MICROSOFT')">Buy</button>
+    <button class="sell" onclick="sell('MICROSOFT')">Sell</button>
+  </div>
+
+  <h3>Transactions</h3>
+  <ul id="transactions"></ul>
+
+  <button class="reset" onclick="resetAccount()">Reset Account</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
